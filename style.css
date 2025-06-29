@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+
+    background-color: #a0e4f2;
+}
+
+.game-cont {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+/* / */
+.txt-cont {
+    height: 15vh;
+    width: 100%;
+    /* background-color: lightcoral; */
+}
+
+.heading {
+    font-size: 44px;
+    font-family: monospace;
+}
+
+
+/* / */
+.game-box-cont {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    /* background-color: rgb(128, 240, 176); */
+}
+
+.boxs-table {
+    height: 100%;
+    width: 650px;
+    /* background-color: black; */
+}
+
+.winner-dec {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 5%;
+    background-color: #a0e4f2;
+}
+
+.txt-win {
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+    border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.txt-win h1 {
+    font-size: 4vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.win-count {
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+
+    /* background-color: antiquewhite; */
+}
+
+.win-logo {
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+border-left: 2px solid black;
+  border-right: 2px solid black;
+    /* background-color: aquamarine; */
+}
+
+.win-logo p {
+    font-size: 7vw;
+}
+
+.count-num {
+    height: 70%;
+    width: 100%;
+    /* background-color: #ffffff; */
+    border: 1px solid black;
+
+}
+
+.count-num .x-coun {
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(175, 188, 199); */
+    justify-content: space-between;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+
+
+}
+
+
+.x p {
+    margin-left: 20px;
+    font-size: 90px;
+}
+
+.num-cntX {
+    height: 100%;
+    width: 60%;
+    /* background-color: aquamarine; */
+}
+
+.num-cntX{
+    font-size: 90px;
+
+}
+
+
+.count-num .o-count {
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(143, 184, 217); */
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+
+
+
+.O p {
+    margin-left: 20px;
+    font-size: 90px;
+}
+
+.num-cntO {
+    height: 100%;
+    width: 60%;
+    /* background-color: aquamarine; */
+
+}
+
+.num-cntO{
+    font-size: 90px;
+
+}
+
+/* box1 */
+
+.boxs-table .row1 {
+    height: calc(100% / 3);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row1 .box1-r1 {
+    height: 175px;
+    width: 192px;
+    background-color: #000000;
+}
+
+.row1 .box2-r1 {
+    height: 175px;
+    width: 192px;
+    background-color: #000000;
+}
+
+.row1 .box3-r1 {
+    height: 175px;
+    width: 192px;
+    background-color: #000000;
+}
+
+
+/* box2 */
+
+.boxs-table .row2 {
+    height: calc(100% / 3);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row2 .box1-r2 {
+    height: 175px;
+    width: 192px;
+    background-color: #000000;
+}
+
+.row2 .box2-r2 {
+    height: 175px;
+    width: 192px;
+    background-color: #000000;
+}
+
+.row2 .box3-r2 {
+    height: 175px;
+    width: 192px;
+    background-color: #000000;
+}
+
+
+
+/* box3 */
+
+.boxs-table .row3 {
+    height: calc(100% / 3);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row3 .box1-r3 {
+    height: 175px;
+    width: 192px;
+    background-color: #000000;
+}
+
+.row3 .box2-r3 {
+    height: 175px;
+    width: 192px;
+    background-color: #000000;
+}
+
+.row3 .box3-r3 {
+    height: 175px;
+    width: 192px;
+    background-color: #000000;
+}
+
+.bx {
+    color: #a0e4f2;
+    font-size: 140px;
+    cursor: pointer;
+    user-select: none;
+    /* disables text selection */
+    outline: none;
+    /* removes focus outline */
+}
+
+
+
+
+
+
+
+/* / */
+
+.play-btn {
+    height: 15vh;
+    width: 100%;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+
+/* From Uiverse.io by ke1221 */
+button {
+    color: #ffffff;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #000000;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    /* box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff; */
+}
+
+button:active {
+    background-color: #ffffff;
+    color: #000000;
+    /* box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff; */
+}
+
+
+#resetManualyy{
+    position: absolute;
+    height: auto;
+    width: auto;
+    background-color: lightblue;
+    top: 45%;
+    right: 13%;
+}
